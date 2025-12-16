@@ -32,7 +32,9 @@ rule-providers:
     behavior: domain
     url: "https://raw.githubusercontent.com/earoftoast/clash-rules/main/ProgramAD.yaml"
     path: ./rules/ProgramAD.yaml
-    interval: 86400 rules:
+    interval: 86400 
+    
+rules:
   - RULE-SET,AD,REJECT
   - RULE-SET,EasyList,REJECT
   - RULE-SET,EasyListChina,REJECT
